@@ -1,0 +1,59 @@
+PODS:
+  - DeviceKit (4.6.0)
+  - Differentiator (5.0.0)
+  - EachNavigationBar (1.16.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - ScreenKit (0.1.0):
+    - DeviceKit (~> 4.6.0)
+    - EachNavigationBar
+    - RxCocoa (~> 6.5.0)
+    - RxDataSources
+    - RxSwift (~> 6.5.0)
+    - SnapKit
+    - Then
+  - SnapKit (5.0.1)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - ScreenKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DeviceKit
+    - Differentiator
+    - EachNavigationBar
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - Then
+
+EXTERNAL SOURCES:
+  ScreenKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DeviceKit: 834dd8aa1be53cd85364d8f49aa5d98bfac397c4
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  EachNavigationBar: e1b9f5c824b2bd7aa18d91767bbc54801ea5dd8e
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  ScreenKit: f5478004effbc46aa6556456f3830da9874ceb40
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: 9fc893e6f8b3817433a6289c177a7ca2de533565
+
+COCOAPODS: 1.11.2
